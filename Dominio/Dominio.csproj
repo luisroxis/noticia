@@ -4,4 +4,12 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Servicos\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Entidades\Entidades.csproj" />
+  </ItemGroup>
+
 </Project>
